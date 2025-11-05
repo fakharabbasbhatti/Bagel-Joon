@@ -32,13 +32,20 @@ const Navbar = () => {
           className="flex items-center space-x-2 select-none group transition-all duration-300"
         >
           <img
-            src="https://images.unsplash.com/photo-1620288627223-53302f4e8c74?auto=format&fit=crop&q=60&w=500"
-            alt="Bageljoon Logo"
-            className="h-12 w-auto object-contain transition-transform duration-500 group-hover:scale-105"
-          />
-          <span className="text-[#F5EBDD] font-semibold tracking-wide text-lg hidden sm:block">
-            Bageljoon
-          </span>
+    src="logo2.jpg"
+    alt="Bageljoon Logo"
+    className="h-12 w-12 object-cover rounded-full border border-[#E2B857]/70 shadow-[0_0_15px_rgba(226,184,87,0.25)] transition-all duration-500 group-hover:scale-110 group-hover:shadow-[0_0_25px_rgba(226,184,87,0.4)]"
+  />
+
+  {/* Brand Name with gradient + subtle glow */}
+  <span
+    className="hidden sm:block text-lg md:text-2xl font-bold tracking-wider transition-all duration-500
+      bg-clip-text text-transparent bg-linear-to-r from-[#E2B857] via-[#F5EBDD] to-[#E2B857]
+      drop-shadow-[0_0_8px_rgba(226,184,87,0.3)] group-hover:drop-shadow-[0_0_12px_rgba(226,184,87,0.6)]"
+    style={{ fontFamily: "Cinzel, serif" }}
+  >
+    BagelJoon
+  </span>
         </Link>
 
         {/* Desktop Menu */}

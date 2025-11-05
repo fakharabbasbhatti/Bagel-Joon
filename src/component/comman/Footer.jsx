@@ -27,10 +27,10 @@ const Footer = () => {
   ];
 
   const services = [
-    { name: "Web Development", href: "/services/web" },
-    { name: "Mobile Apps", href: "/services/mobile" },
-    { name: "UI/UX Design", href: "/services/design" },
-    { name: "Digital Marketing", href: "/services/marketing" },
+    // { name: "Hero", href: "/services/Hero" },
+    { name: "PackagingTypes", href: "/services/Packaging" },
+    { name: "BrandValues", href: "/services/brand" },
+    { name: "Testimonials", href: "/services/Testimonials" },
   ];
 
   const socialLinks = [
@@ -58,11 +58,22 @@ const Footer = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <img
-            src="https://images.unsplash.com/photo-1620288627223-53302f4e8c74?auto=format&fit=crop&q=60&w=500"
+         <div className="flex items-center gap-3">
+
+           <img
+            src="logo2.jpg"
             alt="Bageljoon Logo"
-            className="h-14 w-auto drop-shadow-md"
+            className="h-14 w-auto drop-shadow-md rounded"
           />
+            <span
+    className=" text-2xl md:text-2xl font-bold tracking-wider transition-all duration-500
+      bg-clip-text text-transparent bg-linear-to-r from-[#E2B857] via-[#F5EBDD] to-[#E2B857]
+      drop-shadow-[0_0_8px_rgba(226,184,87,0.3)] group-hover:drop-shadow-[0_0_12px_rgba(226,184,87,0.6)]"
+    style={{ fontFamily: "Cinzel, serif" }}
+  >
+    BagelJoon
+  </span>
+         </div>
           <p className="text-[#F5EBDD]/90 text-sm leading-relaxed max-w-xs">
             California-style <span className="font-semibold text-[#FFFFFF]">sourdough bagels</span> and 
             artisanal coffee — crafted with warmth and balance.
