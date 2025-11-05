@@ -16,22 +16,22 @@ export default function FeaturedPackaging({ items }) {
     {
       title: "Iced Coffee Sleeve",
       subtitle: "Double-cup concept for coastal cafés",
-      img: "https://cdn.pixabay.com/photo/2017/09/21/07/42/coffee-2770971_640.jpg",
+      img: "lc.png",
     },
     {
       title: "Hot Cup (12 / 16 oz)",
       subtitle: "Matte cream with premium sleeve",
-      img: "https://cdn.pixabay.com/photo/2017/03/27/14/18/coffee-2179028_640.jpg",
+      img: "hp.png",
     },
     {
       title: "Clear Can Cup",
       subtitle: "Vacuum-seal, crystal clarity",
-      img: "https://cdn.pixabay.com/photo/2016/09/21/22/00/tea-1685847_640.jpg",
+      img: "cc.png",
     },
     {
       title: "Single Bagel Box",
       subtitle: "Eco-sturdy kraft base, stackable",
-      img: "https://cdn.pixabay.com/photo/2023/01/09/05/55/bagel-7706691_640.jpg",
+      img: "sb.png",
     },
   ];
 

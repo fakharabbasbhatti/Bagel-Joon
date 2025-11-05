@@ -126,7 +126,7 @@ export default function Hero() {
         >
           <div className="relative w-full max-w-2xl group">
             <img
-              src="https://cdn.pixabay.com/photo/2020/12/08/17/08/gifts-5815004_640.jpg"
+              src="ha.png"
               alt="Bageljoon packaging mockup"
               className="w-full h-auto md:h-[350px] lg:h-[350px] rounded-3xl shadow-2xl object-cover transition-transform duration-700 group-hover:scale-[1.05]"
             />
