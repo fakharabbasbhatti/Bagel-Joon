@@ -1,5 +1,4 @@
 import React from "react";
-import { FaCoffee, FaHeart } from "react-icons/fa";
 
 const AboutHero = () => {
    return (
@@ -12,10 +11,6 @@ const AboutHero = () => {
          data-aos="fade-in"
       >
          <div className="text-center text-white max-w-4xl mx-auto">
-            <div className="flex justify-center mb-6" data-aos="fade-up">
-               <FaCoffee className="text-4xl mr-4 text-[#A8B8A5]" />
-               <FaHeart className="text-4xl text-[#A8B8A5]" />
-            </div>
             <h1
                className="text-5xl md:text-7xl font-bold mb-6 font-['Playfair_Display']"
                data-aos="fade-up"
