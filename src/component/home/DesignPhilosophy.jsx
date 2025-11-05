@@ -44,7 +44,7 @@ export default function DesignPhilosophy() {
 
   return (
     <section
-      className="relative py-24 px-6 md:px-12 overflow-hidden"
+      className="relative py-14 px-4 md:px-12 overflow-hidden"
       style={{
         background: `linear-gradient(135deg, ${COLORS.cream} 0%, #f9f3ea 100%)`,
       }}
@@ -57,7 +57,7 @@ export default function DesignPhilosophy() {
       <div className="max-w-4xl mx-auto text-center mb-20">
         <h2
           data-aos="fade-down"
-          className="text-4xl md:text-5xl font-bold tracking-tight mb-4"
+          className="text-3xl md:text-5xl font-bold tracking-tight mb-4"
           style={{ color: COLORS.brown }}
         >
           Design Philosophy
@@ -65,7 +65,7 @@ export default function DesignPhilosophy() {
 
         <p
           data-aos="fade-up"
-          className="text-[1.15rem] leading-relaxed text-balance"
+          className="text-xl md:text-[1.15rem] leading-relaxed text-balance"
           style={{ color: `${COLORS.charcoal}cc` }}
         >
           Minimal lines, tactile materials, and a focus on natural tones. Each
@@ -89,7 +89,7 @@ export default function DesignPhilosophy() {
             }}
             data-aos={it.aos}
             data-aos-delay={i * 150}
-            className="bg-white p-5 rounded-3xl shadow-md border hover:shadow-xl transition-all duration-500 text-center"
+            className="bg-white p-4 md:p-5 rounded-3xl shadow-md border hover:shadow-xl transition-all duration-500 text-center"
             style={{ borderColor: "rgba(0,0,0,0.05)" }}
           >
             {/* 🌱 Icon */}

@@ -48,7 +48,7 @@ export default function FeaturedPackaging({ items }) {
 
   return (
     <section
-      className="relative py-24 px-6 md:px-12 overflow-hidden"
+      className="relative py-14 md:py-24 px-4 md:px-12 overflow-hidden"
       style={{ backgroundColor: COLORS.cream }}
     >
       {/* 🌿 Background aesthetic */}
@@ -59,13 +59,13 @@ export default function FeaturedPackaging({ items }) {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between mb-16">
         <div data-aos="fade-right">
           <h2
-            className="text-4xl md:text-5xl font-semibold tracking-tight"
+            className="text-3xl md:text-5xl font-semibold tracking-tight"
             style={{ color: COLORS.brown }}
           >
             Featured Packaging
           </h2>
           <p
-            className="mt-3 text-[1.15rem] leading-relaxed max-w-2xl"
+            className="mt-3 text-sm md:text-[1.15rem] leading-relaxed max-w-2xl"
             style={{ color: `${COLORS.charcoal}cc` }}
           >
             Explore our signature packaging lineup — minimal, sustainable, and
@@ -129,7 +129,7 @@ export default function FeaturedPackaging({ items }) {
 
             {/* 🪶 Content */}
             <div
-              className="p-6"
+              className="p-4 md:p-6"
               data-aos="fade-up"
               data-aos-delay={idx * 200 + 100}
             >

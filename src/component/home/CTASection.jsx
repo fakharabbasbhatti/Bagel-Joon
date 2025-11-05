@@ -26,7 +26,7 @@ export default function CTASection() {
 
   return (
     <section
-      className="relative overflow-hidden py-28 px-6 md:px-12"
+      className="relative overflow-hidden py-14 md:py-28 px-6 md:px-12"
       style={{
         background: `linear-gradient(135deg, ${COLORS.cream} 0%, #fff7ef 100%)`,
       }}
@@ -48,7 +48,7 @@ export default function CTASection() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
         viewport={{ once: true }}
-        className="max-w-6xl mx-auto rounded-3xl px-10 py-16 flex flex-col lg:flex-row items-center justify-between shadow-xl border backdrop-blur-md"
+        className="max-w-6xl mx-auto rounded-3xl px-5 md:px-10 py-16 flex flex-col lg:flex-row items-center justify-between shadow-xl border backdrop-blur-md"
         style={{
           backgroundColor: COLORS.brown,
           color: COLORS.cream,
@@ -62,7 +62,7 @@ export default function CTASection() {
           className="text-center lg:text-left max-w-2xl"
         >
           <h3
-            className="text-3xl md:text-4xl font-semibold tracking-tight leading-tight"
+            className="text-2xl md:text-4xl font-semibold tracking-tight leading-tight"
             style={{
               fontFamily: "system-ui, sans-serif",
               color: COLORS.cream,
@@ -107,7 +107,7 @@ export default function CTASection() {
       <div
         data-aos="fade-up"
         data-aos-delay="800"
-        className="mt-16 mx-auto w-32 h-1 rounded-full"
+        className="mt-8 md:mt-16 mx-auto w-32 h-1 rounded-full"
         style={{ backgroundColor: COLORS.green }}
       ></div>
     </section>
