@@ -6,13 +6,13 @@ const categories = [
   {
     title: "Bagels & Sandwiches",
     desc: "Freshly baked sourdough bagels and handcrafted breakfast sandwiches.",
-    img: "bagle.avif",
+    img: "zinger.png",
     animation: "zoom-in",
   },
   {
     title: "Coffee & Beverages",
     desc: "Signature hot brews, iced lattes, and cold brew specialties.",
-    img: "cofee.avif",
+    img: "coffee5.png",
     animation: "zoom-in",
   },
   {

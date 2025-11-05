@@ -14,6 +14,7 @@ import Footer from "./component/comman/Footer";
 // Import pages
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Shop from "./pages/Shop";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Login from "./component/comman/Login";
@@ -40,7 +41,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: "about", element: <About /> },
-      { path: "shop", element: <Shop /> },
+      { path: "shops", element: <Shop /> },
       { path: "services", element: <Services /> },
       { path: "contact", element: <Contact /> },
       { path: "login", element: <Login/> },

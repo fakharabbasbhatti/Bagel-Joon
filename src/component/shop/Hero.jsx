@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     <section
       className="relative bg-cover bg-center bg-no-repeat text-center flex flex-col items-center justify-center py-45 px-6"
-      style={{ backgroundImage: "url('image2.jpg')" }}
+      style={{ backgroundImage: "url('shop.jpg')" }}
     >
       {/* Overlay for better text contrast */}
       <div className="absolute inset-0 bg-black/40"></div>
