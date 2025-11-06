@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const categories = [
+const categoriesArray = [
    {
       title: "Bagels & Sandwiches",
       desc: "Freshly baked bagels and handcrafted breakfast sandwiches.",
@@ -66,7 +66,7 @@ const Categories = () => {
 
             {/* Category Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-14">
-               {categories.map((item, index) => (
+               {categoriesArray.map((item, index) => (
                   <div
                      key={index}
                      className="group bg-white rounded-3xl shadow-[0_2px_8px_rgba(0,0,0,0.1)] hover:shadow-[0_8px_20px_rgba(0,0,0,0.15)] transition-all duration-500 overflow-hidden cursor-pointer relative"

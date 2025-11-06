@@ -3,7 +3,7 @@ import Hero from "../component/shop/Hero";
 import FeaturedProducts from "../component/shop/FeaturedProducts";
 import Sustainability from "../component/shop/Sustainability";
 import LifestyleGallery from "../component/shop/LifestyleGallery";
-import Categories from "../component/shop/categories";
+import Categories from "../component/shop/Categories";
 
 const Shops = () => {
    return (
