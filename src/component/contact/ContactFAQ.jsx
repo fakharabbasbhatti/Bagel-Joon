@@ -43,7 +43,7 @@ const ContactFAQ = () => {
    };
 
    return (
-      <section className="py-20 bg-white">
+      <section className=" py-20 bg-white">
          <div className="container mx-auto px-4">
             <div className="text-center mb-16" data-aos="fade-up">
                <h2 className="text-4xl md:text-5xl font-bold text-[#5D4037] mb-4 font-['Playfair_Display']">
@@ -101,7 +101,7 @@ const ContactFAQ = () => {
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                      <a
-                        href="tel:+18585552243"
+                        href="tel:(858) 555-0123"
                         className="bg-[#8B7355] hover:bg-[#5D4037] text-white py-3 px-6 rounded-xl font-bold transition-all duration-300 inline-flex items-center justify-center space-x-3"
                      >
                         <span>Call Us Now</span>

@@ -19,11 +19,11 @@ const AboutCTA = () => {
                   <div className="space-y-4 mb-8">
                      <div className="flex items-center space-x-4">
                         <FaMapMarkerAlt className="text-[#A8B8A5] text-xl" />
-                        <span>123 Coastal Avenue, La Jolla, CA 92037</span>
+                        <span> 123 Coastal Ave, La Jolla, CA</span>
                      </div>
                      <div className="flex items-center space-x-4">
                         <FaPhone className="text-[#A8B8A5] text-xl" />
-                        <span>(858) 555-BAGEL</span>
+                        <span>(858) 555-0123</span>
                      </div>
                      <div className="flex items-center space-x-4">
                         <FaClock className="text-[#A8B8A5] text-xl" />

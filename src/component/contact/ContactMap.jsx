@@ -20,9 +20,7 @@ const ContactMap = () => {
                               Address
                            </h3>
                            <p className="text-gray-600">
-                              123 Coastal Avenue
-                              <br />
-                              La Jolla, CA 92037
+                              123 Coastal Ave, La Jolla, CA
                            </p>
                         </div>
                      </div>
