@@ -1,10 +1,6 @@
 // src/App.jsx
 import React from "react";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Outlet,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import "./App.css";
 
 // Import components
@@ -14,6 +10,7 @@ import Footer from "./component/comman/Footer";
 // Import pages
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Shop from "./pages/Shop";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Login from "./component/comman/Login";
@@ -21,37 +18,37 @@ import SignUp from "./component/comman/SignUp";
 
 // ✅ Layout component (Navbar + Footer always visible)
 const Layout = () => {
-  return (
-    <div className="flex flex-col">
-      <Navbar />
-      <main className="flex-grow">
-        <Outlet />
-      </main>
-      <Footer />
-    </div>
-  );
+   return (
+      <div className="flex flex-col">
+         <Navbar />
+         <main className="flex-grow">
+            <Outlet />
+         </main>
+         <Footer />
+      </div>
+   );
 };
 
 // ✅ Define router with nested routes
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Layout />,
-    children: [
-      { index: true, element: <Home /> },
-      { path: "about", element: <About /> },
-      { path: "shop", element: <Shop /> },
-      { path: "services", element: <Services /> },
-      { path: "contact", element: <Contact /> },
-      { path: "login", element: <Login/> },
-      { path: "signup", element: <SignUp/> },
-    ],
-  },
+   {
+      path: "/",
+      element: <Layout />,
+      children: [
+         { index: true, element: <Home /> },
+         { path: "about", element: <About /> },
+         { path: "shops", element: <Shop /> },
+         { path: "services", element: <Services /> },
+         { path: "contact", element: <Contact /> },
+         { path: "login", element: <Login /> },
+         { path: "signup", element: <SignUp /> },
+      ],
+   },
 ]);
 
 // ✅ App component provides the router
 function App() {
-  return <RouterProvider router={router} />;
+   return <RouterProvider router={router} />;
 }
 
 export default App;

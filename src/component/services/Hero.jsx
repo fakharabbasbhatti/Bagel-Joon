@@ -7,12 +7,12 @@ const green = "#7DA17A";
 
 export default function Hero() {
   return (
-    <section className="relative w-full py-24 md:py-32 px-6 md:px-12 lg:px-24 overflow-hidden bg-linear-to-br from-[#fff8f3] via-[#f5ede2] to-white">
+    <section className="min-h-screen relative w-full py-24 md:py-32 px-6 md:px-12 lg:px-24 overflow-hidden bg-linear-to-br from-[#fff8f3] via-[#f5ede2] to-white">
     
     
       {/* Soft background pattern */}
       <div className="absolute inset-0 opacity-40 bg-[url('coffee2.png')]"></div>
-      <div className="relative max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-12 z-10">
+      <div className="relative max-w-7xl pt-10 md:pt-20 mx-auto flex flex-col-reverse md:flex-row items-center gap-12 z-10">
       
       
         {/* Text Section */}

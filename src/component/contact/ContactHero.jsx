@@ -4,7 +4,7 @@ import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 const ContactHero = () => {
    return (
       <section
-         className="min-h-[60vh] py-10 lg:py-30 bg-cover bg-center flex items-center justify-center px-4 relative"
+         className="min-h-screen py-10 lg:py-30 bg-cover bg-center flex items-center justify-center px-4 relative"
          style={{
             backgroundImage:
                "linear-gradient(rgba(139, 115, 85, 0.85), rgba(139, 115, 85, 0.85)), url(https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)",
@@ -40,7 +40,7 @@ const ContactHero = () => {
                   <div className="w-16 h-16 bg-[#A8B8A5] rounded-full flex items-center justify-center mb-4">
                      <FaPhone className="text-2xl text-white" />
                   </div>
-                  <p className="text-lg">(858) 555-BAGEL</p>
+                  <p className="text-lg">(858) 555-0123</p>
                </div>
 
                <div className="flex flex-col items-center">
@@ -54,7 +54,7 @@ const ContactHero = () => {
                   <div className="w-16 h-16 bg-[#A8B8A5] rounded-full flex items-center justify-center mb-4">
                      <FaMapMarkerAlt className="text-2xl text-white" />
                   </div>
-                  <p className="text-lg">La Jolla, CA</p>
+                  <p className="text-lg"> 123 Coastal Ave, La Jolla, CA</p>
                </div>
             </div>
          </div>
