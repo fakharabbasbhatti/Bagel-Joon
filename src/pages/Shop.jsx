@@ -1,21 +1,20 @@
-import React from 'react'
-import Hero from '../component/shop/Hero'
-import Categories from "../component/shop/categories.jsx";
-import FeaturedProducts from '../component/shop/FeaturedProducts'
-import Sustainability from '../component/shop/Sustainability'
-import LifestyleGallery from '../component/shop/LifestyleGallery'
+import React from "react";
+import Hero from "../component/shop/Hero";
+import FeaturedProducts from "../component/shop/FeaturedProducts";
+import Sustainability from "../component/shop/Sustainability";
+import LifestyleGallery from "../component/shop/LifestyleGallery";
+import Categories from "../component/shop/categories";
 
 const Shops = () => {
-  return (
-    <div>
-      <Hero/>
-      <Categories/>
-      <FeaturedProducts/>
-      <Sustainability/>
-      <LifestyleGallery/>
+   return (
+      <div>
+         <Hero />
+         <Categories />
+         <FeaturedProducts />
+         <Sustainability />
+         <LifestyleGallery />
+      </div>
+   );
+};
 
-    </div>
-  )
-}
-
-export default Shops
+export default Shops;
